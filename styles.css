@@ -203,7 +203,12 @@ container-fluid {
 	bottom: -10px;
 }
 
-
+@media (max-width: 370px) { 
+	.main-header-title>a,
+	.textblock>p>span  {
+		font-size: 25px !important;
+	}
+}
 
 
 
