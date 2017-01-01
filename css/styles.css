@@ -242,6 +242,11 @@ body {
 	}
 }
 
+.portrait-img-sm {
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
 /***** CAROUSEL *********************************************/
 
 .carousel-inner > .item > img,
@@ -306,6 +311,21 @@ body {
 	background-color: transparent;
 }
 
+/***** ABLAUF *********************************************/
 
 
+.portrait-img {
+	margin-top: 50px;
+}
+
+.portrait-img>img {
+	max-height: 505px;
+}
+
+/***** HELPERS *********************************************/
+
+.spacer30 {
+	display: inline-block;
+	height: 30px;
+}
 
