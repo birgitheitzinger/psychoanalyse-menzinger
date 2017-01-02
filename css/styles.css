@@ -259,8 +259,9 @@ body {
 .portrait-img-sm {
 	margin-bottom: 30px;
 	margin-top: 10px;
-	text-align: center;
 	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /***** CAROUSEL *********************************************/
