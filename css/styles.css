@@ -42,7 +42,7 @@ body {
 }
 
 .main-header>a {
-	cursor: default;
+	cursor: pointer;
     display: inline-block;
     margin-top: 29px;
 }
@@ -87,7 +87,7 @@ body {
 }
 
 .main-nav>ul>li>a {
-	color: #6E604E !important;
+	color: #6E604E;
 	cursor: pointer;
 	transition: 0.2s ease;
 	-moz-transition: 0.2s ease;
@@ -101,6 +101,10 @@ body {
 	color: #ffffff !important;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+.nav-active {
+
 }
 
 .main-nav>ul>li {
@@ -128,6 +132,16 @@ body {
 }
 
 .textblock>p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border: 1px solid #917F67;
+	border-width: 1px 0;
+}
+
+.content-block {
+	display: inline-block;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-top: 50px;
@@ -245,6 +259,8 @@ body {
 .portrait-img-sm {
 	margin-bottom: 30px;
 	margin-top: 10px;
+	text-align: center;
+	max-width: 300px;
 }
 
 /***** CAROUSEL *********************************************/
@@ -258,7 +274,6 @@ body {
 
 .carousel {
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .carousel-control.left,
@@ -322,10 +337,42 @@ body {
 	max-height: 505px;
 }
 
-/***** HELPERS *********************************************/
+/***** KONTAKT *********************************************/
 
-.spacer30 {
-	display: inline-block;
-	height: 30px;
+.btn-mailto {
+	border-radius: 0;
+	color: #6E604E !important;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	height: 35px;
+	line-height: 23px;
+	margin-top: 20px;
+	border-color: #917F67 !important;
+	background-color: #E7E9EF;;
 }
 
+.btn-mailto:hover {
+	background-color: #ffffff;
+}
+
+.accent-text {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #917F67;
+	padding-right: 10px;
+	letter-spacing: 0;
+}
+
+/***** HELPERS *********************************************/
+
+.spacer50 {
+	display: inline-block;
+	height: 50px;
+}
+
+.spacer20 {
+	display: inline-block;
+	height: 20px;
+}
