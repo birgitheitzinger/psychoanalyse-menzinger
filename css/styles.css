@@ -14,10 +14,6 @@ p {
 	margin-bottom: 0;
 }
 
-container-fluid {
-	height: 100%;
-}
-
 a {
 	text-decoration: none !important;
 }
@@ -29,6 +25,15 @@ html {
 
 body {
     margin-bottom: 30px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.row {
+	margin-right: 15px;
+    margin-left: 15px;
 }
 
 /******* HEADER AND NAV *******************************************/
@@ -193,10 +198,6 @@ body {
 
 /***** TEXTCONTENT *********************************************/
 
-.textblock-padding {
-	padding-left: 30px;
-	padding-right: 30px;
-}
 
 .textblock>p {
 	padding-top: 30px;
@@ -205,6 +206,16 @@ body {
 	margin-bottom: 40px;
 	border: 1px solid #917F67;
 	border-width: 1px 0;
+}
+
+.content-block-wrapper {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content-block-wrapper>div {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .content-block {
@@ -276,7 +287,8 @@ body {
 	background-color: #000000;
 	bottom: 0;
 	position: absolute;
-
+	margin: 0;
+	padding: 0;
 }
 
 .footer>p {
@@ -350,10 +362,22 @@ body {
 .portrait-img-sm {
 	margin-bottom: 30px;
 	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+.portrait-sm-wrapper {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.portrait-sm-wrapper>div {
 	max-width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 /***** CAROUSEL *********************************************/
 
@@ -455,6 +479,11 @@ body {
 	color: #917F67;
 	padding-right: 10px;
 	letter-spacing: 0;
+}
+
+.g-map {
+	padding-left: 12px;
+	padding-right: 12px;
 }
 
 /***** HELPERS *********************************************/
