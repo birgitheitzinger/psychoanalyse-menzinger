@@ -237,6 +237,14 @@ body {
 	letter-spacing: 0;
 }
 
+.link-read-more {
+	color: #6E604E;
+}
+
+.link-read-more:hover {
+	color: #000000;
+}
+
 /***** IMAGES *********************************************/
 
 .psyche {
