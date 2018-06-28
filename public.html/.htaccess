@@ -1,9 +1,8 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteCond %{SERVER_PORT} !^443$ [OR]
-RewriteCond %{HTTP_HOST} !^www\.psychoanalyse-menzinger.com [NC]
-RewriteRule (.*) https://www.psychoanalyse-menzinger.com/$1 [R=301,L]
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^psychoanalyse-menzinger\.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://psychoanalyse-menzinger.com/$1 [R,L]
 </IfModule>
 <IfModule mod_deflate.c>
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
