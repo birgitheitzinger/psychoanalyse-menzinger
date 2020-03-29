@@ -198,6 +198,35 @@ body {
 
 /***** TEXTCONTENT *********************************************/
 
+/*-----Info Home------*/
+
+.info-zone>p {
+	padding: 22px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	display: inline-block;
+	font-size: 19px;
+	line-height: 1.3;
+	background-color: #917F69;
+	color: white;
+}
+
+.info-contact,
+.info-contact a {
+	font-size: 14px;
+	color: #FFF1F1;
+	display: inline-block;
+}
+
+.info-contact {
+	padding-top: 20px;
+}
+
+.info-contact a {
+	text-decoration: underline !important;
+}
+
+/*-----------*/
 
 .textblock>p {
 	padding-top: 30px;
